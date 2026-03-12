@@ -133,4 +133,112 @@
 //     i++;
 // } while(i >= 10);
 
+// for in (object)
 
+// {} object 
+//  [] array
+
+
+// let obj = {
+//     id : "1",
+//     name : "Roshan Sardar",
+//     city : "Rajbiraj",
+//     age : 22
+// }
+
+// for(let a in  obj){
+//     console.log(obj[a]);
+    
+// }
+
+// Rest Operator
+// ...
+
+// let ftName = {
+//     id : "1",
+//     name : "Roshan Sardar",
+//     age : 22,
+//     city : "Rajbiraj",
+//     Phone : 9816565156,
+//     email : "sardarroshan449@gmail.com"
+// }
+
+
+// let {id,name,age,...main} = ftName;
+
+// console.log(main);
+
+// for of array
+
+// let array = [1,2,3,4,5,6,7,8,9,10];
+
+// console.log(array);
+
+// for(let useOf of array){
+//     console.log(useOf);
+// }
+
+// let resultNumber = [50,80,90,30,10];
+
+// console.log(resultNumber[0]);
+
+// let list = [10,30,50,70,35,57,88,91]
+
+// list.forEach((element,sort) => {
+//     console.log(element);
+//     console.log(sort);
+// })
+
+// Function declaration
+
+// function fn(name, lastName){
+//     console.log(`hello world ${name}`);
+//     console.log(`Second Name ${name}`);
+// }
+// let ftName = "Roshan Sardar";
+// let secondName = "rajbiraj";
+// fn(ftName, secondName);
+
+// Function Expression
+
+// const fn = function(){
+//     console.log("hello world");
+// }
+
+// fn();
+
+//  Function Arrow  =>
+
+    // => example
+
+    // const firstFunction = ()=>{
+    //     console.log("hello world");
+    // }
+
+
+    // firstFunction();
+
+
+//     const firstFunction = (villageName, ftName)=>{
+//         console.log("First Function ");
+//         console.log(villageName);
+//         console.log(ftName);
+//     }
+
+// /*************  ✨ Windsurf Command ⭐  *************/
+// /**
+//  * SecondFunction
+//  * @description This function calls the firstFunction with villageName and ftName as arguments
+//  * @param {void} No parameters are required
+//  * @returns {void} No return value
+//  */
+// /*******  723d4d10-be69-48cf-8121-1f467e812014  *******/
+//     const SecondFunction = (ftName, lastName)=>{
+//         console.log("Second Function");
+//         firstFunction(ftName, lastName);
+//     }
+
+//     let ftName = "Roshan";
+//     let lastName = "sardar"
+
+// SecondFunction(ftName, lastName);
