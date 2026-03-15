@@ -225,7 +225,6 @@
 //         console.log(ftName);
 //     }
 
-// /*************  ✨ Windsurf Command ⭐  *************/
 // /**
 //  * SecondFunction
 //  * @description This function calls the firstFunction with villageName and ftName as arguments
@@ -242,3 +241,127 @@
 //     let lastName = "sardar"
 
 // SecondFunction(ftName, lastName);
+
+
+// scope
+
+// let name = "Roshan Sardar";
+
+
+// function ftName(){} Function declaration
+//  const ftName = function(){} function expression
+//  const ftName = ()=>{} arrow function
+//  const ftName = ()=>{
+    // console.log("hello world");
+    //  } 
+    // const sdName = () =>{
+
+        // ftName();
+        // }  callback function
+
+
+    //     const name = "Roshan Sardar";
+
+    //     const ftName = (name)=>{
+    //         const name = "Rajbiraj";
+
+    //         console.log(name);
+    //     };
+
+    //     console.log(name);
+    //   ftName(name);
+
+    // hosting
+
+
+//     fnName();
+
+//   function fnName(){
+//     console.log("hello world");
+//   }
+
+// //   fnName();
+
+// fnName();
+
+// const fnName = function(){
+//     console.log("hello worldl");
+// }
+
+// // fnName();
+
+// function fnName(){} function declaration
+//  const fnName = function(){} function expression
+// const fnName = ()=>{} arrow function
+
+
+
+// const fnName = ()=>{
+//     console.log("hello world you can learing arrow function")
+// }
+
+// fnName();
+
+// console.log(document);
+
+
+// basic DOM manipulation
+// #h1
+// const firstFunction = ()=>{
+//     let h1 = document.createElement("h1");
+
+//     h1.innerHTML = "hello world";
+//     document.body.appendChild(h1);
+// }
+
+// firstFunction();
+
+// Event Listener and Event Handling
+
+// let btn = document.createElement("button");
+// btn.innerHTML = "submit",
+
+// document.body.appendChild(btn);
+
+// let h1 = document.createElement("h1");
+// btn.addEventListener("mouseleave", ()=>{
+//     // alert("hello world");
+//     h1.innerHTML = "Hello world";
+//     document.body.appendChild(h1);
+
+
+// })
+
+
+let promiseFunction = (name) =>{
+ return new Promise((resolve,reject)=>{
+        if(name == "Roshan Sardar"){
+            resolve("Roshan Sardar");
+        }else{
+            reject("hello good by");
+        }
+    })
+}
+
+let name = "Roshan Sardar";
+promiseFunction(name).then((data)=>{
+    console.log(data);
+}).catch((error)=>{
+    console.log(error);
+})
+
+
+const promiseFirstFunction = async()=>{
+   try{
+    //    let name = "Roshan Sardar"
+     let result = await fetch(promiseFunction());
+    console.log(result);
+   }catch(error){
+    console.log(error);
+   } 
+}
+
+let impotantData = ""
+
+promiseFirstFunction();
+
