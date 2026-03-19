@@ -333,35 +333,139 @@
 // })
 
 
-let promiseFunction = (name) =>{
- return new Promise((resolve,reject)=>{
-        if(name == "Roshan Sardar"){
-            resolve("Roshan Sardar");
-        }else{
-            reject("hello good by");
-        }
-    })
-}
+// let promiseFunction = (name) =>{
+//  return new Promise((resolve,reject)=>{
+//         if(name == "Roshan Sardar"){
+//             resolve("Roshan Sardar");
+//         }else{
+//             reject("hello good by");
+//         }
+//     })
+// }
 
-let name = "Roshan Sardar";
-promiseFunction(name).then((data)=>{
-    console.log(data);
-}).catch((error)=>{
-    console.log(error);
-})
+// let name = "Roshan Sardar";
+// promiseFunction(name).then((data)=>{
+//     console.log(data);
+// }).catch((error)=>{
+//     console.log(error);
+// })
 
 
-const promiseFirstFunction = async()=>{
-   try{
-    //    let name = "Roshan Sardar"
-     let result = await fetch(promiseFunction());
-    console.log(result);
-   }catch(error){
-    console.log(error);
-   } 
-}
+// const promiseFirstFunction = async()=>{
+//    try{
+//     //    let name = "Roshan Sardar"
+//      let result = await fetch(promiseFunction());
+//     console.log(result);
+//    }catch(error){
+//     console.log(error);
+//    } 
+// }
 
-let impotantData = ""
+// let impotantData = ""
 
-promiseFirstFunction();
+// promiseFirstFunction();
 
+
+// console.log("loading...");
+
+// setTimeout(()=>{
+//     console.log("test asyncronous programing...");
+// })
+
+// console.log("end");
+
+
+
+// console.log("loading...");
+// const firstFunction = ()=>{
+//     console.log("hello world");
+// }
+
+
+// console.log("end");
+// firstFunction();
+
+// const apiFunction = async()=>{
+//   try {
+//       let result = await fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=a")
+//     console.log(result);
+//   } catch (error) {
+//     console.log(error)
+    
+//   } 
+// }
+
+// apiFunction();
+// let address = {city : "Rajbiraj", country : "Nepal", province : "Saptri"}
+
+// let array = ["ADMIN","USER","MERCHANT"]; 
+// console.log(array[1]);
+
+// let obj = {
+//     // key : value
+//     id : "1",
+//     name : "Roshan Sardar",
+//     address : {
+//         city : "Rajbiraj",
+//         country : "Nepal",
+//         province : "Saptri"
+//     },
+//     ftFunction : ()=>{
+//         let data = "ft function calling for object"
+//         console.log(data);
+//     },
+//     array : ["ADMIN","USER","MERCHANT"],
+// }
+
+// // ftFUnction();
+
+// console.log(obj.array[1]);
+
+// object destucturing
+
+// let obj = {
+//     id : "1",
+//     name : "Roshan Sardar",
+//     age : 19,
+//     address : "Rajbiraj"
+// }
+
+
+// let {age,name,address,id} = obj;
+// console.log(age);
+// console.log(name);
+// console.log(address);
+// console.log(id);
+
+
+// let arr = [50,70,80,90,100];
+
+// let [nepali,english,science,maths,physics] = arr;
+// console.log(english);
+// console.log(science);
+
+// let name = "Roshan Sardar";
+// let village = "Rajbiraj";
+// let age = 19;
+
+// console.log("my name is " + age + village );
+
+// • Template literals
+
+// console.log(`my name is ${name} and my age is ${age}  and my village is ${village}`);
+
+// • Spread and Rest Operators
+
+// let obj = {
+//     id : "1",
+//     age : 19,
+//     name : "Roshan Sardar",
+//     address : "Rajbiraj",
+//     lsadf : "saldfklasdfk",
+//     asldkf : "lsdkfalsdkf"
+// }
+
+
+// let {id,name,...rest} = obj;
+// // console.log(age);
+// console.log(rest);
